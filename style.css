@@ -8,6 +8,14 @@ body {
     font-size: 13px;
 }
 
+.disable-double-click-zoom{
+    touch-action: none;
+}
+
+.disable-double-click-zoom{
+    touch-action: none;
+}
+
 <<<<<<< HEAD
 =======
 .disable-double-click-zoom{
