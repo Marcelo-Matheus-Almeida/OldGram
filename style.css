@@ -8,10 +8,6 @@ body {
     font-size: 13px;
 }
 
-.disable-double-click-zoom{
-    touch-action: none;
-}
-
 p{
     margin: 0;
 }
