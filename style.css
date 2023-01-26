@@ -8,6 +8,13 @@ body {
     font-size: 13px;
 }
 
+<<<<<<< HEAD
+=======
+.disable-double-click-zoom{
+    touch-action: manipulation;
+}
+
+>>>>>>> parent of 1a55e49 (teste css)
 p{
     margin: 0;
 }
