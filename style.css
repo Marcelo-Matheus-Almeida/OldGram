@@ -9,7 +9,7 @@ body {
 }
 
 .disable-double-click-zoom{
-    touch-action: manipulation;
+    touch-action: none;
 }
 
 p{
