@@ -48,7 +48,7 @@ function renderPosts(){
                     <p class="post-user-location bold-text">${posts[i].location}</p>
                 </div>
             </div>
-            <img class="post-photo" ondblclick="like(${i})" src=${posts[i].post}>
+            <img class="post-photo disable-double-click-zoom" ondblclick="like(${i})" src=${posts[i].post}>
             <div class="actions">
                 <img class="like-button" id="likeBtn${i}" onclick="like(${i})" src="images/icon-heart.png" alt="">
                 <img src="images/icon-comment.png" alt="">
@@ -78,20 +78,3 @@ function like(postNum){
         numLikes.innerHTML = `<span class="bold-text">${posts[postNum].likes}</span> like`
     }   
 }
-
-
-// likeBtn[0].addEventListener("click", function(){
-//     if (this.src == "http://127.0.0.1:5500/images/icon-heart.png"){
-//         this.src = "images/icon-heart-fill.png"
-//     }else{
-//         this.src = "images/icon-heart.png"
-//     }
-// })
-
-// postPhoto[0].addEventListener("dblclick", function(){
-//     if (likeBtn[0].src == "http://127.0.0.1:5500/images/icon-heart.png"){
-//         likeBtn[0].src = "images/icon-heart-fill.png"
-//     }else{
-//         likeBtn[0].src = "images/icon-heart.png"
-//     }
-// })
