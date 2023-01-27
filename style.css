@@ -8,21 +8,6 @@ body {
     font-size: 13px;
 }
 
-.disable-double-click-zoom{
-    touch-action: none;
-}
-
-.disable-double-click-zoom{
-    touch-action: none;
-}
-
-<<<<<<< HEAD
-=======
-.disable-double-click-zoom{
-    touch-action: manipulation;
-}
-
->>>>>>> parent of 1a55e49 (teste css)
 p{
     margin: 0;
 }
@@ -35,8 +20,20 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 500px;
+    top: 0;
+    left: auto;
+    box-sizing: border-box;
+    z-index: 99;
     padding: 10px;
     border-bottom: 1px solid #c6c6c6;
+    background-color: #fff;
+    opacity: 100%;
+}
+
+main{
+    margin-top: 90px;
 }
 
 #site-logo{
@@ -68,7 +65,7 @@ header{
 }
 
 .post-photo{
-    width: 500px;
+    width: 100%;
     margin-bottom: 15px;
 }
 
@@ -87,4 +84,10 @@ header{
 .likes,
 .coments{
     margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    body, header{
+        width: 100%;
+    }
 }
